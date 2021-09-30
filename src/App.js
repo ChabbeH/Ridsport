@@ -1,10 +1,13 @@
-
+import React from "react";
+import "./shared/global/Global.css";
+import { Routing } from "./routes/Routing";
+import { NavigationHandler } from "./components/navigationbar/NavigationHandler";
 
 function App() {
   return (
-    <div>
-
-    </div>
+    <Routing>
+      <NavigationHandler />
+    </Routing>
   );
 }
 
